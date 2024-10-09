@@ -1,0 +1,123 @@
+
+
+html { /* styles entire website based on these parameters */
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(#02f1d2, #030c69);
+    height:100%;
+  }
+
+
+  
+  /* --------below this is for "Home" page-------- */
+
+
+#page1header { /* This is for header "index.html" at top of page */
+    text-align:center;
+    color:red;
+}
+
+.pagelinks { /* this is for navigation links "Home, Cats, Dogs" */
+    text-align:center;
+    color:purple;
+}
+
+#pglspace { /* this is for navigation links "Home, Cats, Dogs" */
+    padding-left:5px;
+}
+
+#p1header2 { /* this is for header directly above the form */
+    text-align:center;
+    color:black;
+}
+
+#form { /* this contains entire form in a single block? div */
+    text-align:center;
+}
+
+.spacing { /* this contains entire form, but individually */
+    margin-bottom:5px;
+    border-color:red;
+}
+
+
+
+/* --------below this is for "Cats" page-------- */
+
+
+#pg2topheader { /* this is for header "cat pictures" */
+    text-align:center;
+    color:rgb(0, 2, 102)
+}
+
+.imgdiv{ /* this div contains all pictures */
+    text-align:center;
+    list-style-position:inside;
+
+}
+
+#imagecolor { /* this targets only top picture */
+    color:white;
+}
+
+#imagecolor2 { /* this targets bottom two pictures */
+    color:gold;
+}
+
+#hrcat {
+    color:purple;
+}
+
+
+
+
+/* --------below this is for "Dogs" page-------- */
+
+
+#dogheader { /* header "stuff about dogs" */
+    text-align:center;
+    color:white;
+    background-color:black;
+}
+
+.listdiv { /*a div containing the entire ol */
+    display: inline-block;
+    margin-left: 50%;
+    transform: translateX(-50%);
+  }
+
+#list li:nth-child(odd) { /* a second div containing ol */
+    color:gold;
+}
+
+#listitem { /* contains all list items, separated */
+    padding-bottom: 5px;
+}
+
+#imgdiv { /* dog image and alt */
+    text-align:center;
+    margin-top:25px;
+    color:rgb(22, 212, 5);
+    font-size: 20px;
+}
+
+#linkheader { /* header above the table */
+    text-align: center;
+    color:white;
+}
+
+.table { /* contains entire table */
+    margin:auto
+}
+
+.tablestyle { /* targets header, rows and non-link data */
+    color:white;
+    font-size:20px; 
+}
+
+#hrele { /* hr element */
+    color:red;
+}
+
+#footerele { /* footer element */
+    color:white;
+}

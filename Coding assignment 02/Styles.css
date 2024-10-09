@@ -1,4 +1,7 @@
 
+a:link, a:visited {
+    color: white;
+}
 
 html { /* styles entire website based on these parameters */
     font-family: Arial, Helvetica, sans-serif;
@@ -18,11 +21,13 @@ html { /* styles entire website based on these parameters */
 
 .pagelinks { /* this is for navigation links "Home, Cats, Dogs" */
     text-align:center;
-    color:purple;
+    display: grid;
+    
 }
 
 #pglspace { /* this is for navigation links "Home, Cats, Dogs" */
     padding-left:5px;
+    color:purple;
 }
 
 #p1header2 { /* this is for header directly above the form */
@@ -63,10 +68,9 @@ html { /* styles entire website based on these parameters */
     color:gold;
 }
 
-#hrcat {
+#hrcat { /*hr line on catpage */
     color:purple;
 }
-
 
 
 
@@ -86,7 +90,7 @@ html { /* styles entire website based on these parameters */
   }
 
 #list li:nth-child(odd) { /* a second div containing ol */
-    color:gold;
+    color:rgb(47, 0, 255);
 }
 
 #listitem { /* contains all list items, separated */
@@ -106,12 +110,21 @@ html { /* styles entire website based on these parameters */
 }
 
 .table { /* contains entire table */
-    margin:auto
+    margin:auto;
+    table-layout: fixed;
+    border: 2px solid rgb(0, 0, 0);
+    border-collapse: collapse;
 }
 
-.tablestyle { /* targets header, rows and non-link data */
+#thead { /* targets table header */
+    background-color: sandybrown;
+    color:black;
+}
+
+.tablestyle { /* targets rows and non-link data */
+    font-size:18px; 
     color:white;
-    font-size:20px; 
+    background-color:black;
 }
 
 #hrele { /* hr element */

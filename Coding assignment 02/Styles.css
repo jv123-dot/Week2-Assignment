@@ -14,7 +14,7 @@ html { /* styles entire website based on these parameters */
   /* --------below this is for "Home" page-------- */
 
 
-#page1header { /* This is for header "index.html" at top of page */
+h1 { /* This is for header "index.html" at top of page */
     text-align:center;
     color:red;
 }
@@ -51,7 +51,6 @@ html { /* styles entire website based on these parameters */
 
 #pg2topheader { /* this is for header "cat pictures" */
     text-align:center;
-    color:rgb(0, 2, 102);
     margin-left:55px;
 }
 
